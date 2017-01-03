@@ -1,6 +1,5 @@
 <html>
 <body>
-	<h2>Hello World! ;)</h2>
 	<span id="liveclock" style="position: absolute; left: 0; top: 0;"></span>
 	<script type="text/javascript">
     function show5(){
@@ -25,7 +24,7 @@
          if (seconds<=9)
          seconds="0"+seconds
         //change font size here to your desire
-        myclock="<font size='5' face='Arial' ><b><font size='1'>Hora actual:</font></br>"+hours+":"+minutes+":"
+        myclock="<font size='15' face='Arial' ><b><font size='1'>Hora actual:</font></br>"+hours+":"+minutes+":"
          +seconds+" "+dn+"</b></font>"
         if (document.layers){
         document.layers.liveclock.document.write(myclock)
